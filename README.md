@@ -73,7 +73,7 @@ This project use https://github.com/christianangon/christian-json-server for moc
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/christianangon/Writer-Editor-Dashboard.git
+   git clone https://github.com/PJaybee-10/Editor-Writer-Dashboard
    ```
 2. Install NPM packages
    ```sh
@@ -92,52 +92,39 @@ This project use https://github.com/christianangon/christian-json-server for moc
 
 **User Management**
 
--Two types of users: Writers and Editors.
--Editors have the ability to add and update user profiles (writers and editors).
+- User Roles: Supports two types of users: Writers and Editors, each with distinct permissions and access levels.
+- Profile Management: Editors have the ability to add, update, and manage user profiles, including both writers and editors.
+- Role Assignment: Editors can assign roles to new users, ensuring they have the appropriate access and capabilities within the system.
+- Access Control: Ensures that writers and editors can only access features and content relevant to their roles, maintaining a secure and organized workflow.
+- Activity Monitoring: Tracks user activity and contributions, providing insights into individual performance and engagement.
+- Notifications and Alerts: Sends automated notifications to users about important updates, deadlines, and feedback, facilitating effective communication.
+- User Analytics: Provides detailed analytics on user activity, helping editors manage their teams more effectively and identify areas for improvement.
+- Security Features: Includes robust security measures to protect user data and ensure privacy, such as password protection and role-based access control.
 
 **Article Management**
 
--Writers can create articles, and the system automatically sets the article status to "For Edit" and assigns the writer.
--Writers can edit their unpublished articles.
--Editors can edit and publish articles.
--The system distinguishes between articles in the "For Edit" and "Published" states.
+- Article Creation: Writers can easily create new articles, with the system automatically setting the status to “For Edit” and assigning the article to the writer.
+- Draft Editing: Writers have the ability to edit their unpublished articles, allowing for continuous improvement and refinement before submission.
+- Editorial Control: Editors can review, edit, and publish articles, ensuring that content meets quality standards and is ready for publication.
+- Status Tracking: The system clearly distinguishes between articles in the “For Edit” and “Published” states, providing a transparent workflow and easy tracking of article progress.
+- Feedback Integration: Editors can provide feedback directly within the system, helping writers improve their work and streamline the editing process.
+- Version History: Maintains a history of edits and revisions, allowing both writers and editors to track changes and revert to previous versions if necessary.
+- Automated Notifications: Sends notifications to writers and editors about status changes, deadlines, and feedback, ensuring timely updates and efficient communication.
 
 **Dashboard Views**
 
-Writer's Dashboard:
-
-    -Displays two lists of articles: "For Edit" and "Published" with relevant details.
-    -Provides writers with an overview of their articles.
+Writer’s Dashboard:
+- Article Management: Displays two lists of articles: “For Edit” and “Published,” each with relevant details such as title, submission date, and status.
+- Overview and Insights: Provides writers with a comprehensive overview of their articles, including deadlines and feedback from editors.
+- Task Prioritization: Highlights articles that require immediate attention, helping writers prioritize their tasks efficiently.
     
-Editor's Dashboard:
-
-    -Displays two lists of articles: "For Publish" and "Published" with key information.
-    -Editors can manage users and companies from the dashboard.
+Editor’s Dashboard:
+- Article Review and Publishing: Displays two lists of articles: “For Publish” and “Published,” with key information such as author, submission date, and review status.
+- User and Company Management: Allows editors to manage user accounts and company profiles directly from the dashboard.
+- Workflow Optimization: Provides tools for assigning articles to writers, setting deadlines, and tracking progress.
+- Quality Control: Includes features for providing feedback, approving edits, and ensuring articles meet publication standards.
+- Analytics and Reporting: Offers detailed analytics on publication performance, including article reach, reader demographics, and engagement metrics.
     
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Fixing update of users, company, and articles
-- [ ] Add some UI design more for flexibility
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, dont hesitate to DM me. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -151,7 +138,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- CONTACT -->
 ## Contact
 
-LinkedIn - https://www.linkedin.com/in/christianangon/
+LinkedIn - https://www.linkedin.com/in/prince-joemarie-june-barro-23ba14223/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
